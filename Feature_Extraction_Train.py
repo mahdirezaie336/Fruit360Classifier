@@ -3,7 +3,7 @@ import skimage.io, skimage.color, skimage.feature
 import os
 import pickle
 
-fruits = ["apple", "lemon", "mango", "raspberry"]
+fruits = ["apple", "lemon", "mango", "raspberry", 'banana', 'kiwi', 'peach']
 #492+490+490+490=1,962
 dataset_features = numpy.zeros(shape=(1962, 360))
 outputs = numpy.zeros(shape=(1962))
